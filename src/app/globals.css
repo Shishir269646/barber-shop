@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.HerobG{
+  background-image: url(../../public/images/banner.jpg);
+}

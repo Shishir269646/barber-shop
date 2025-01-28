@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,8 +10,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
       },
+      backgroundImage: {
+        "heroBg": "./public/images/banner.jpg"
+      }
     },
+    fontFamily: {
+      tangerine:["var(--font-TangerineF)"],
+      Merienda:["var(--font-Merienda)"],
+    }, 
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };
