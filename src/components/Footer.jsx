@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
 
                     {/* Right Column */}
-                    <div className="right-col w-full lg:w-auto sm:text-center lg:text-left">
+                    <div className="right-col w-full lg:w-auto sm:items-center sm:text-center lg:text-left">
                         <h1 className="text-white text-2xl font-semibold">Our Newsletter</h1>
                         <div className="border mx-auto lg:mx-0 w-24 h-1 bg-red-400 my-2"></div>
                         <p className="text-gray-100 mb-4">Enter Your Email to get our news and updates.</p>
